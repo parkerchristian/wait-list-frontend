@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  border-collapse: collapse;
+}
+
+table, tr, th {
+  margin: 5px;
+  border: solid;
+}
+
+table {
+  width: 50vw;
+  text-align: center;
+}
+
+th {
+  height: 2em;
+  font-size: 1.5em;
+}
+
+tr {
+  height: 1.8em;
+}
+
+tbody > tr:hover {
+  background: gray;
+}
